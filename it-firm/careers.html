@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="with=device-width , initial scale=1.0">
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="image/logo1.jpg"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="careers.html">INSIGHTS</a></li>
+					
+					<li><a href="careers.html">CAREERS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>OUR CAREERS</h1>
+	</section>
+
+
+	<!-- OUR INSIGHTS -->
+
+	<section class="insights">
+	<h1>OUR INSIGHTS</h1>
+	<p>The pandemic has adversely impacted the regular functioning of employees and businesses. The forced, sudden changes gave little time for leaders across functions to come up with robust, comprehensive policies at scale. Immediate priorities were to ensure business continuity and the welfare of employees. HR leaders had to come up with flexible programs that were unheard of in the past.</p>
+
+	<div class="row">
+		<div class="insights-col">
+			<h3>Human Resource</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div class="insights-col">
+			<h3>Cyber Security</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div class="insights-col">
+			<h3>Media And Telecom</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</section>
+
+
+	<!-- OUR CAREERS -->
+<section class="careers">
+	<h1>OUR CAREERS</h1>
+	<p>elementum sagittis vitae et leo</p>
+
+	<div class="row">
+		<div class="careers-col">
+			<img src="image/ai.jpg">
+			<h3>ARTIFICIAL INTELLIGENCE</h3>
+			<p>mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper</p>
+		</div>
+
+		<div class="careers-col">
+			<img src="image/webdevelopment.jpg">
+			<h3>WEB-DEVELOPER</h3>
+			<p>mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper</p>
+		</div>
+
+		<div class="careers-col">
+			<img src="image/data.jpg">
+			<h3>DATA ANALYTICS</h3>
+			<p>mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper</p>
+		</div>
+
+	</div>
+</section>
+
+
+	
+
+
+<!-- FOOTER -->
+
+<section class="footer">
+	<h4>ABOUT US</h4>
+	<p><section>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br>et dolore magna aliqua. Et netus et malesuada fames. Quis auctor elit sed vulputate mi.</section></p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Satya Swaraj</p>
+</section>
+
+<!-- JAVASCRIPT FOR TOGGLE MENU -->	
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+		
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+		
+	}
+</script>
+</body>
+</html>

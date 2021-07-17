@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="with=device-width , initial scale=1.0">
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="image/logo1.jpg"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="careers.html">INSIGHTS</a></li>
+					
+					<li><a href="careers.html">CAREERS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>OUR RECOGNITIONS & CERTIFICATIONS</h1>
+	</section>
+
+<!-- BLOG PAGE CONTENT -->
+
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+			<img src="image/tag.jpg">
+			<img src="image/tag1.jpg">
+			<h2>OUR RECOGNITIONS & CERTIFICATIONS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Congue nisi vitae suscipit tellus mauris a. Massa sed elementum tempus egestas sed sed risus pretium quam.</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Sed sed risus pretium quam vulputate dignissim suspendisse. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Scelerisque eu ultrices vitae auctor.</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Non enim praesent elementum facilisis leo vel fringilla est. Tristique senectus et netus et malesuada fames. Dolor sit amet consectetur adipiscing.</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus ultricies tristique nulla aliquet enim. Id aliquet lectus proin nibh nisl condimentum id. Augue neque gravida in fermentum et sollicitudin ac orci. Posuere ac ut consequat semper viverra nam libero justo.</p>
+
+
+			<div class="comment-box">
+				<h3>LEAVE A COMMENT</h3>
+				<form class="comment-form">
+					<input type="text" placeholder="Enter your name" name="Name">
+					<input type="email" placeholder="Enter your Email" name="Email">
+					<textarea rows="5" placeholder="Your comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENTS</button>
+				</form>
+			</div>
+		</div>
+		<div class="blog-right">
+			<h3>JOB CATEGORIES</h3>
+			<div>
+				
+				<span>DATA SCIENTIST</span>
+				<span>1</span>
+				
+			</div>
+
+			<div>
+				
+				<span>SOFTWARE DEVELOPER</span>
+				<span>2</span>
+				
+			</div>
+
+			<div>
+				
+				<span>WEB DEVELOPER</span>
+				<span>3</span>
+				
+			</div>
+			
+			<div>
+				
+				<span>BUSINESS ANALYST</span>
+				<span>4</span>
+				
+			</div>
+
+			<div>
+				
+				<span>JAVA DEVELOPER</span>
+				<span>6</span>
+				
+			</div>
+
+			<div>
+				
+				<span>MACHINE LEARNING & AI DEVELOPER</span>
+				<span>7</span>
+				
+			</div>
+
+			<div>
+				
+				<span>PYTHON DEVELOPER</span>
+				<span>8</span>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+
+	
+
+
+<!-- FOOTER -->
+
+<section class="footer">
+	<h4>ABOUT US</h4>
+	<p><section>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br>et dolore magna aliqua. Et netus et malesuada fames. Quis auctor elit sed vulputate mi.</section></p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Satya Swaraj</p>
+</section>
+
+<!-- JAVASCRIPT FOR TOGGLE MENU -->	
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+		
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+		
+	}
+</script>
+</body>
+</html>
